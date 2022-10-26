@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  width: 0px; /* ширина нового скроллбара */
+}
+body {
+  background: #ffffff;
+  margin: 0px;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  padding: 5px;
+  display: flex;
+  background: #4f91d2;
+  color: white;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+nav ul li:not(:last-child) {
+  margin-right: 50px;
+}
+
+nav h1 {
+  padding-left: 20px;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+nav ul li a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 19px;
+  color: white;
+}
+
+/* Main */
+
+main {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-block {
+  position: relative;
+  overflow: hidden;
+  border-right: 1px solid #eeee;
+  width: 20%;
+  margin: 0 auto;
+  padding-top: 25px;
+  height: 90vh;
+  overflow: scroll;
+  box-shadow: 0 0 15px #d2d2d297;
+}
+
+/* Scroll styles */
+
+.menu-block::-webkit-scrollbar {
+  width: 8px; /* ширина нового скроллбара */
+}
+.menu-block::-webkit-scrollbar-thumb {
+  background-color: blue;
+  width: 2px; /* ширина кнопки скроллбара */
+  border-radius: 20px;
+}
+
+.menu-block ul {
+  position: relative;
+  padding: 0 25px;
+  font-size: 20px;
+}
+.menu-block ul li {
+   margin: 10px 0 ;
+}
+.menu-block ul li a {
+  font-size: 24px;
+  transition: 0.3s;
+  color: gray;
+}
+
+.menu-block ul li a:hover {
+  color: black;
+}
+
+/* ! Title block */
+
+.Title-block {
+  width: 80%;
+  margin-top: 150px;
+  text-align: right;
+  padding-right: 50px;
+}
+.Title-block div {
+  width: 60%;
+  margin-left: auto;
+}
+.Title-block h1 {
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 80px;
+}
+
+.Title-block h4 {
+  font-size: 29px;
+  position: relative;
+  top: 180px;
+  right: 10px;
+  overflow: hidden;
+  font-weight: 800;
+}
