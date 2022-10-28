@@ -156,15 +156,8 @@ nav ul li a {
     color: rgb(34, 34, 34);
 }
 
-.top_main_cards{
-    display: flex;
-    
-}
 
-.top_main_cards img{
-    width: 300px;
-}
+.Main_Block_Picks img{
+    width: 600px;
 
-.Main_Block_cards img{
-    width: 500px;
 }
