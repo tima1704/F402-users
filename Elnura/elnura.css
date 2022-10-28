@@ -1,0 +1,135 @@
+
+  nav {
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    justify-content:end;
+    align-items: flex-end; 
+    padding: 15px 25px;
+    text-decoration: none;
+}
+.contactsBlock {
+    display: flex;
+    list-style: none;  
+}
+
+.contactsBlock a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    
+}
+
+.logoBlocks  {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.logoBlocks img {
+    width: 30px;
+    padding: 5px;
+    
+}
+
+
+/* оБО МНЕ */
+
+
+.aboutMeBlock {
+    position:relative;
+    display: flex;
+    justify-content:end;
+    font-family:  'Shalimar', cursive;
+    padding-top: 100px;
+    background: url("./img/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg") center / cover; 
+}
+.aboutMeBlock img{
+    width: 400px;
+    border-radius: 50px; 
+}
+
+.aboutMeBlock h1{
+    position: absolute;
+    left: 600px;
+    padding-top: 200px;
+    font-size: 50px;
+    color: rgb(38, 35, 35);  
+}
+
+
+
+/* МОЯ ИСТОРИЯ */
+
+.MyStories {
+   background: url("./img/josh-calabrese-XXpbdU_31Sg-unsplash.jpg") center / cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 100px 100px;
+}
+
+.MyStories img{
+    width: 400px;
+    border-radius: 0px;
+    padding-right: 50px;
+    border-radius: 20px;
+}
+
+.TextBlock {
+    text-align: center;
+    width: 35%;
+    padding: 30px;
+    background-color: rgb(245, 251, 247);
+    margin: 0 50px;
+}
+
+/* Мои работы */
+
+.myWorkBlock  {
+   position: relative;
+   font-family: 'Shalimar', cursive;
+   text-align: center;
+   margin-top: 100px;
+   cursor: pointer;
+}
+
+.myWorkBlock img{
+   width: 400px; 
+   height: 500px;   
+}
+
+.myWorkBlock img:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transform: .8s ease-in-out;
+    transition:  .8s ease-in-out;
+}
+
+
+ .myWorkBlock ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+} 
+
+.myWorkBlock li {
+    list-style: none;
+    text-decoration: none;
+    text-align: center; 
+    font-size: 30px;  
+}
+
+.myWorkBlock h3 {
+    font-size: 50px;
+}
+
+.myWorkBlock a{
+    text-decoration: none;
+    color: black;
+}
+
+
