@@ -10,10 +10,12 @@ header {
 }
 
 .top-main {
+    position: relative;
+    z-index: 10;
     overflow: hidden;
     color: white;
     font-size: 18px;
-    background-color: rgba(29, 34, 44, 0.589);
+    background-color: rgb(29, 34, 44);
     height: 10vh;
 }
 
@@ -24,16 +26,18 @@ header {
     margin: 0px;
     padding-left: 770px;
     position: relative;
-    bottom: 14px;
+    bottom: 10px;
 }
 
-.for-span  span {
+.for-span a {
+    position: relative;
+    text-decoration: none;
+    top: 15px;
+    z-index: 10;
     font-size: 20px;
     padding: 10px 20px;
     color: bisque;
     font-family: 'Freehand', cursive;
-    position: relative;
-    top: 13px;
 }
 
 .for-ul ul li {
@@ -49,6 +53,8 @@ header {
 
 /* -------------------------------bottom main ----------------------------- */
 .bottom-main {
+    position: relative;
+    z-index: 5  ;
     overflow: hidden;
     width: 100%;
     margin: 0%;
@@ -61,8 +67,9 @@ header {
 }
 
 
-.left-bottom-main {
-    
+.left-bottom-main { 
+    position: relative;
+    z-index: 5;
     overflow: hidden;
     margin: 0%;
     width: 50%;
@@ -104,11 +111,12 @@ header {
 .right-bottom-main {
     
     overflow: hidden;
-    background: url('https://www.pngall.com/wp-content/uploads/2016/05/Jon-Snow-PNG-File.png') center / cover;
+    background: url('./img/Jon-Snow-PNG-File.png') center / cover;
     width: 50%;
     margin: 0%;
     animation-name: background;
     animation-duration: 3s;
+    opacity: 1;
     animation-timing-function: linear;
     animation-iteration-count: 1;
     transition: 1s;
@@ -120,6 +128,7 @@ header {
 @keyframes background {
     0%{
         transform: rotate(0deg);
+        opacity: 0;
     }
 
     25% {
@@ -136,6 +145,7 @@ header {
 
     100% {
         transform: rotate(360deg);
+        opacity: 1;
     }
 }
 

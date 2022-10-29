@@ -11,7 +11,7 @@ header {
 .top-main {
     color: white;
     font-size: 18px;
-    background-color: rgba(29, 34, 44, 0.589);
+    background-color: rgb(29, 34, 44);
     height: 10vh;
 }
 
