@@ -1,0 +1,163 @@
+body {
+    width: 100%;
+    margin: 0px;
+}   
+
+header {
+    overflow: hidden;
+    width: 100%;
+    margin: 0px;
+}
+
+.top-main {
+    overflow: hidden;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(29, 34, 44, 0.589);
+    height: 10vh;
+}
+
+.for-ul ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding-left: 770px;
+    position: relative;
+    bottom: 14px;
+}
+
+.for-span  span {
+    font-size: 20px;
+    padding: 10px 20px;
+    color: bisque;
+    font-family: 'Freehand', cursive;
+    position: relative;
+    top: 13px;
+}
+
+.for-ul ul li {
+    padding: 0px 20px;
+}
+
+.for-ul ul li a {
+    text-decoration: none;
+    color: bisque;
+    font-family: 'Freehand', cursive;
+    margin-bottom: 20px;
+}
+
+/* -------------------------------bottom main ----------------------------- */
+.bottom-main {
+    overflow: hidden;
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    animation-name: back;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+
+}
+
+
+.left-bottom-main {
+    
+    overflow: hidden;
+    margin: 0%;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.left-bottom-main img {
+    width: 200px;
+    height: 150px;
+    transition: 1s;
+    padding: 20px;
+}
+
+.left-bottom-main img:hover {
+    transform: scale(1.5);
+}
+
+.left-bottom-main p {
+    font-family: 'Freehand', cursive;
+    font-size: 18px;
+    color: gray;
+}
+
+.left-bottom-main h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+    color:rgba(71, 50, 25, 0.678);
+}
+
+.left-bottom-main span {
+    font-family: 'Freehand', cursive;
+    font-size: 20px;
+    color: rgba(79, 75, 124, 0.692);
+}
+
+/* ---------------------------------- */
+
+.right-bottom-main {
+    
+    overflow: hidden;
+    background: url('https://www.pngall.com/wp-content/uploads/2016/05/Jon-Snow-PNG-File.png') center / cover;
+    width: 50%;
+    margin: 0%;
+    animation-name: background;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    transition: 1s;
+    position: relative;
+    bottom: 21px;
+    left: 30px;
+}
+
+@keyframes background {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes back {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-90deg);
+    }
+
+    50% {
+        transform: rotate(-180deg);
+    }
+
+    75% {
+        transform: rotate(-270deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
