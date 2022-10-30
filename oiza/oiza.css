@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    background: #F1F6FE;
+    padding: 30px 80px;
+    padding-bottom: 3px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px;
+    object-fit: contain;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.navigation ul li {
+    margin-right: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.navigation ul li:hover {
+    color: #1A6CE8;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.navigation ul button {
+    padding: 8px 20px;
+    border-radius: 15px;
+    border: none;
+    background-color:#1A6CE8 ;
+    color: #fff;
+    position: relative;
+    bottom: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.navigation ul button:hover {
+    background-color: #F1F6FE;
+    border: #1A6CE8 1px solid;
+    padding: 7px 20px;
+    color: #1A6CE8;
+}
+
+
+.header_content {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+
+.left_header_block {
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.left_header_block .hi_i_am {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+
+.left_header_block h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.left_header_block_first_p {
+    color: rgb(66, 66, 66);
+    font-weight: 600;
+    margin: 0;
+}
+
+.p_with_span span {
+    color: #1A6CE8;
+    font-weight: 650;
+}
+
+.left_header_block_second_p {
+    font-size: 13px;
+    color: rgb(114, 112, 112);
+    width: 60%;
+}
+
+.header_button {
+    padding-top: 25px;
+    
+}
+
+.header_button button {
+    padding: 10px 30px;
+    border: none;
+    background-color: #1A6CE8;
+    color: #fff;
+    border-radius: 15px;
+    font-weight: 500;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.header_button button:hover {
+    padding: 9px 30px;
+    border: 1px solid #1A6CE8;
+    background-color: #fff;
+    color: #1A6CE8;
+}
+
+.right_header_block {
+    position: relative;
+    bottom: 40px;
+    right: 100px;
+    background: url('oiza.img/myphoto.jpg') center / cover;
+    width: 780px;
+    height: 480px;
+    border-radius: 800px;
+}
+
+.detailes section  {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.541);
+    border-radius: 8px;
+    padding: 6px 15px;
+    width: 45%;
+    box-shadow: 0px 0px 7px 2px rgba(3, 89, 156, 0.2) inset;
+}
+
+.detailes section span {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.detailes section p {
+    text-align: left;
+    margin: 0;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(65, 65, 65);
+
+}
+
+.detailes div img {
+    width: 30px;
+    object-fit: contain;
+    padding-right: 10px;
+}
+
+.right_header_block_first_button {
+    position: relative;
+    top: 100px;
+    right: 130px;
+}
+
+.right_header_block_second_button {
+    position: relative;
+    top: 260px;
+    right: 100px;
+}
+
+.right_header_block_third_button {
+    position: relative;
+    top: 130px;
+    left: 350px;
+}
+
+.right_header_block_fourth_button {
+    position: relative;
+    bottom: 180px;
+    left: 250px;
+}
+
+
+/* --------------------------------Main--------------------------------- */
+
+.html_css_js {
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.html_css_js img {
+    width: 6%;
+    box-shadow: 1px -1px 21px 8px rgba(8, 95, 161, 0.2);
+    border-radius: 6px;
+}
+
+
+/* -------------------------My projects------------------------- */
+
+.my_projects_container {
+    padding: 10px 100px;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.img_project_1 {
+    background: url('./oiza.img/колонка.png') center / cover;
+    width: 500px;
+    height: 350px; 
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: -2px 1px 8px 2px rgba(34, 60, 80, 0.2);
+    transition: 0.2s;
+}
+
+.img_project_2 {
+    background: url('oiza.img/mariella.png') center / cover;
+    width: 500px;
+    height: 350px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: -2px 1px 8px 2px rgba(34, 60, 80, 0.2);
+}
+
+
+.img_project_3 {
+    background: url('./oiza.img/легкие\ решения.png') center / cover;
+    width: 500px;
+    height: 350px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: -2px 1px 8px 2px rgba(34, 60, 80, 0.2);
+}
+
+.projects_container {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.about_project {
+    background-color: #F0F2F4;
+    padding: 40px 40px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 50%;
+
+}
+
+.text_project h2 {
+    color: #1A6CE8;
+    margin: 0;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.text_project span {
+    color: rgb(108, 108, 108);
+}
+
+.rates_project {
+    display: flex;
+    background-color: #1a6ce8c4;
+    margin-top: 72px;
+    border-radius: 25px;
+    width: 60%;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rates_project .rate {
+    color: #fff;
+    text-align: center;
+}
+
+.rate span {
+    font-size: 15px;
+}
+
+.rate h1 {
+    font-weight: 500;
+    font-size: 35px;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.my_projects_container button {
+    padding: 16px 50px;
+    margin: 0;
+    background-color: #1A6CE8;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.my_projects_container button:hover {
+    background-color: #fff;
+    color: #1A6CE8;
+    border: 1px solid #1A6CE8;
+}
+
+
+/* -------------------------Footer----------------------- */
+
+.footer_1 {
+    position: relative;
+    top: 100px;
+    background-color: #5790e6;
+    margin: 30px 160px;
+    display: flex;
+    padding: 70px 60px;
+    color: #fff;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.left_footer_block h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 30px;
+
+}
+
+.left_footer_block span {
+    font-size: 15px;
+}
+
+.right_footer_block button {
+    padding: 16px 40px;
+    margin-top: 18px;
+    border-radius: 20px;
+    margin-right: 50px;
+    border: none;
+    color: #1A6CE8;
+    font-weight: 500;
+    box-shadow: -2px 1px 12px 10px rgba(255, 255, 255, 0.2); 
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.footer_2 {
+    background-color:#deeafc;
+    padding: 200px 80px 30px 80px;
+    
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons img {
+    width: 3%;
+    margin-right: 20px;
+}
