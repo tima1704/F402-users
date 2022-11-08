@@ -202,7 +202,9 @@ nav ul li a {
     transition: 1s;
 
 }
-
+.photo img:hover{
+    transform: scale(1.5);
+}
 .photo_container {
     width: 80%;
     margin: 100px auto;
