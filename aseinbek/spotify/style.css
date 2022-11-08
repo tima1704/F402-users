@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigationBlock {
+    padding: 20px 0;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+.leftHeader {
+    margin-left: 180px;
+}
+
+.rightHeader {
+    margin-right: 180px;
+}
+
+
+.leftHeader img{
+    width: 130px;
+}
+
+.rightHeader ul {
+    display: flex;
+}
+
+.rightHeader ul li {
+    cursor: pointer;
+    margin: 0px 20px;
+    font-weight: 600;
+}
+
+.main {
+    padding-top: 100px;
+    justify-content: center;
+    background: url("./img/Main.png") center / cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.leftMain {
+    margin-right: 50px;
+}
+
+.leftMain img {
+    width: 100px;
+    object-fit: cover;
+}
+
+.contentLeftMain img{
+    width: 300px;
+    padding: 0 0 0 0;
+}
+
+.rigthMain {
+    margin-left: 50px;
+}
+
+.contentRightMain{
+    width: 700px;
+}
+
+.contentRightMain h1 {
+    text-shadow: 0 0 1px #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 55px;
+    margin-left: 100px;
+}
+
+.contentRightMain button{ 
+    cursor: pointer;
+    border-radius: 30px; 
+    border: none; 
+    padding: 15px 30px; 
+    background-color: #ffffff; 
+    font-size: 17px; 
+    font-weight: bold; 
+    letter-spacing: 0.5px;
+    margin-left: 100px; 
+}
+
+.butt { 
+    cursor: pointer;
+    border-radius: 30px; 
+    border: none; 
+    padding: 15px 30px; 
+    background-color: #ffffff; 
+    font-size: 17px; 
+    font-weight: bold; 
+    letter-spacing: 0.5px;
+    margin-left: 100px;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.titleCardsSpotify h1 {
+    text-align: center;
+    margin: 50px 0 50px;
+    font-size: 40px;
+}
+
+#contentCardsSpotify {
+    display: flex;
+    margin: 0 100px;
+    justify-content: center;
+}
+
+.cards img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    text-align: center;
+    margin: 0 25px;
+    width: 250px;
+}
+
+.cards h3 {
+    font-size: 21px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.cards p {
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.freeBlock {
+    width: 100%;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    color: #ffffff;
+    margin: 50 0px;
+    padding: 100px 0;
+}
+
+.contentfreeBlock {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.contentfreeBlock h1 {
+    font-size: 50px;
+}
+
+.secondBigBlock h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contentBigBlock div {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    border-bottom: 1px solid #a0a0a069; 
+}
+
+.contentBigBlock div img {
+    width: 19px;
+    object-fit: contain;
+}
+
+.getStartlock {
+    width: 100%;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    color: #ffffff;
+    margin: 50 0px;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contentStartBlock {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.contentGetStartlock h1 {
+    margin: 20px 0;
+    font-size: 65px;
+    line-height: 75px;
+}
+
+button{ 
+    cursor: pointer;
+    border-radius: 30px; 
+    border: none; 
+    padding: 15px 30px; 
+    background-color: #ffffff; 
+    font-size: 17px; 
+    font-weight: bold; 
+    letter-spacing: 0.5px;
+    margin-left: 100px;
+    box-shadow: 0 0 10px #ffffff;
+}

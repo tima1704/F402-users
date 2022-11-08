@@ -1,0 +1,693 @@
+@font-face {
+    font-family: 'Noto IKEA';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://www.ikea.com/global/assets/fonts/woff2/noto-ikea-400i.latin-ext.7ed5b4fc.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  
+  /* latin */
+  @font-face {
+    font-family: 'Noto IKEA';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://www.ikea.com/global/assets/fonts/woff2/noto-ikea-400i.latin.a15d672b.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  /* latin-ext */
+  @font-face {
+    font-family: 'Noto IKEA';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://www.ikea.com/global/assets/fonts/woff2/noto-ikea-700i.latin-ext.c6db488c.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  
+  /* latin */
+  @font-face {
+    font-family: 'Noto IKEA';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://www.ikea.com/global/assets/fonts/woff2/noto-ikea-700i.latin.f77e6ad9.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  /* latin-ext */
+  @font-face {
+    font-family: 'Noto IKEA';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://www.ikea.com/global/assets/fonts/woff2/noto-ikea-400.latin-ext.14a7297a.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  
+  /* latin */
+  @font-face {
+    font-family: 'Noto IKEA';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://www.ikea.com/global/assets/fonts/woff2/noto-ikea-400.latin.16880ce8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  /* latin-ext */
+  @font-face {
+    font-family: 'Noto IKEA';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://www.ikea.com/global/assets/fonts/woff2/noto-ikea-700.latin-ext.3934340f.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  
+  /* latin */
+  @font-face {
+    font-family: 'Noto IKEA';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://www.ikea.com/global/assets/fonts/woff2/noto-ikea-700.latin.5d09a799.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+    margin: 0 auto;
+    font-family: 'Noto IKEA';
+    width: 100%;
+    /* background-color: darkgrey; */
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 50px;
+}
+
+
+
+.logo img {
+    width: 150px;
+}
+
+.menuLogo img {
+    width: 20px;
+}
+
+.mainUp {
+    display: flex;
+    margin: 0 50px;
+    height: 800px;
+}
+
+.mainUpLeft {
+    background: url(./media/Linus_startpage_6138a5d9f6.jpg) center/cover;
+    color: #ffffff;
+    width: 70%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.mainUpLeft p{
+  margin: 0px;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.mainUpLeft h1{
+  margin: 0px;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.mainUpRight {
+    width: 30%;
+    background-color: #ffdb00;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gs {
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    align-items: center;
+    border-bottom: 1px solid #676767;
+}
+
+.gshImg img {
+    width: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+}
+
+.button {
+  margin-bottom: 10px;  
+}
+
+.button button{
+    background-color: #ffdb00;
+    width: 100%;
+    border: 0.5px solid #ffdb00;
+    font-size: 18px;
+    height: 100px;
+}
+
+.button button a {
+    font-weight: bold;
+}
+
+.mainAverage {
+    display: flex;
+    margin: 0 50px;
+    height: 650px;
+}
+
+.mainAverageLeft {
+    background: url(./media/gifka.gif) center/cover;
+    width: 50%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-right: 10px;margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.mainAverageRight {
+    background: url(./media/KASEBERGA_PH_185247_d3c5b1440b.jpg) center/cover;
+    width: 50%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.mainAverageLeft p {
+  color: #ffffff;
+  margin: 0px;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.mainAverageLeft h1 {
+  color: #ffffff;
+  margin: 0px;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.mainAverageRight p {
+  color: #ffffff;
+  margin: 0px;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.mainAverageRight h1 {color: #ffffff;
+  margin: 0px;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.mainDown {
+  display: flex;
+  margin: 0 50px;
+  height: 650px;
+}
+
+.mainDownLeft {
+  background: url(./media/Hagberg_start_008a6e757d.jpg) center/cover;
+  width: 50%;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.mainDownLeft p {
+  color: #ffffff;
+  margin: 0px;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.mainDownLeft h1 {
+  color: #ffffff;
+  margin: 0px;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.mainDownRight {
+  background: url(./media/Press_image_02_4_5_62a9c41792.jpg) center/cover;
+  width: 50%;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.mainDownRight p {
+  color: #ffffff;
+  margin: 0px;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.mainDownRight h1 {
+  color: #ffffff;
+  margin: 0px;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+footer{
+  margin-top: 100px;
+  width: 100%;
+}
+
+.textFooter {
+  text-align: center;
+}
+
+.imgFooter {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.imgFooter img {
+  width: 150px;
+}
+
+.daylightFooter {
+  padding-top: 30px;
+}
+
+.downFooter {
+  background-color: #0058a3;
+  color: #ffffff;
+}
+
+.cardsFooter {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.cardsFooter span {
+  font-size: 25px;
+}
+
+.otherFooter {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+
+.cp {
+  padding-top: 15px;
+}
+
+/* -------------------------------992px------------------------------------ */
+
+@media (max-width: 992px) {
+  .navigation {
+    margin: 25px 20px;
+  }
+
+  .mainUp {
+    margin: 5px 20px;
+    height: 500px;
+  }
+
+  .mainUpLeft {
+    width: 60%;
+    height: 500px;
+  }
+
+  .mainUpLeft p{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  
+  .mainUpLeft h1{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 25px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
+
+  .mainUpRight {
+    width: 40%;
+    height: 500px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .gsh h1{
+    font-size: 30px;
+  }
+
+  .gshImg img {
+    width: 35px;
+  }
+
+  button p {
+    font-size: 16px;
+  }
+
+  .mainAverage {
+    margin: 5px 20px;
+    height: 500px;
+  }
+
+  .mainAverageLeft {
+    width: 100%;
+    height: 500px;
+    margin-top: 5px;
+  }
+
+  .mainAverageLeft p{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  
+  .mainAverageLeft h1{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 25px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
+
+  .mainAverageRight {
+    width: 100%;
+    height: 500px;
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+
+  .mainAverageRight p{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  
+  .mainAverageRight h1{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 25px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
+
+  .mainDown {
+    margin: 5px 10px;
+    height: 500px;
+  }
+
+  .mainDownLeft {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+  }
+
+  .mainDownLeft p{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  
+  .mainDownLeft h1{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 25px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
+
+  .mainDownRight {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .mainDownRight p{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  
+  .mainDownRight h1{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 25px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
+
+  .textFooter {
+    padding: 0 50px;
+  }
+
+  .textFooter h1 {
+    font-size: 30px;
+  }
+
+  .cardsFooter {
+    margin: 20px 50px;
+  }
+
+  .cardsFooter span{
+    font-size: 25px;
+  }
+
+  .otherFooter {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* -------------------------------576px----------------------------------- */
+
+@media (max-width: 576px) {
+
+  .navigation {
+    margin: 25px 10px;
+  }
+
+  .mainUp {
+    flex-direction: column;
+    /* width: 100%; */
+    margin: 5px 10px;
+  }
+
+  .mainUpLeft {
+    width: 100%;
+    height: 500px;
+  }
+
+  .mainUpLeft p{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  
+  .mainUpLeft h1{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  .mainUpRight {
+    width: 100%;
+    height: 900px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .gsh h1{
+    font-size: 20px;
+  }
+
+  .gshImg img {
+    width: 25px;
+  }
+
+  button p {
+    font-size: 14px;
+  }
+
+  .mainAverage {
+    flex-direction: column;
+    margin: 5px 10px;
+    height: 700px;
+  }
+
+  .mainAverageLeft {
+    width: 100%;
+    height: 350px;
+    margin-top: 5px;
+  }
+
+  .mainAverageLeft p{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  
+  .mainAverageLeft h1{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  .mainAverageRight {
+    width: 100%;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .mainAverageRight p{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  
+  .mainAverageRight h1{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  .mainDown {
+    flex-direction: column;
+    margin: 5px 10px;
+    height: 700px;
+  }
+
+  .mainDownLeft {
+    width: 100%;
+    height: 350px;
+    margin-top: 5px;
+  }
+
+  .mainDownLeft p{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  
+  .mainDownLeft h1{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  .mainDownRight {
+    width: 100%;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .mainDownRight p{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  
+  .mainDownRight h1{
+    margin: 0px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  .textFooter {
+    padding: 0 50px;
+  }
+
+  .textFooter h1 {
+    font-size: 25px;
+  }
+
+  .cardsFooter {
+    margin: 20px 50px;
+  }
+
+  .cardsFooter span{
+    font-size: 20px;
+  }
+
+  .otherFooter {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cp span{
+    font-size: 12px;
+  }
+
+  .otherText p {
+    font-size: 12px;
+  }
+}

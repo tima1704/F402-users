@@ -1,0 +1,44 @@
+@font-face { 
+    font-family: 'isocpeur'; 
+    src: url('./img/isocpeur.ttf') format('woff2'), 
+         url('./img/isocpeur.ttf')  format('truetype'),
+         url('./img/isocpeur.ttf') format('woff'); 
+    font-weight: normal; 
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'isocpeur';
+}
+
+.cards {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    margin-top: 5%;
+    width: 30%;
+    height: 80vh;
+    border: 1px solid black;
+    background: url(./img/Linus_startpage_6138a5d9f6.jpg) center/cover;
+}
+
+.card2 {
+    margin-top: 5%;
+    width: 30%;
+    height: 80vh;
+    border: 1px solid black;
+    background: url(./img/Second-Section.png) center/cover;
+}
+
+.card3 {
+    margin-top: 5%;
+    width: 30%;
+    height: 80vh;
+    border: 1px solid black;
+    background: url(./img/spotify.jpg) center/cover;
+}
