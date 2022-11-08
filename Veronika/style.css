@@ -200,10 +200,6 @@ nav ul li a {
     object-fit: contain;
     border-radius: 20px;
     transition: 1s;
-
-}
-.photo img:hover{
-    transform: scale(1.5);
 }
 .photo_container {
     width: 80%;
@@ -305,3 +301,7 @@ nav ul li a {
     top: 25px;
 }
 
+@media screen {
+    
+    
+}
