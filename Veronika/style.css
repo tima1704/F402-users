@@ -62,7 +62,7 @@ nav ul li a {
 .my_photo {
     width: 50%;
     height: 700px;
-    background: url("./img/pngwing.com\ \(3\).png") center/cover;
+    background: url("./img/pngwing.com\(3\).png") center/cover;
     border: none;
     margin-right: 30px;
 }
@@ -167,7 +167,6 @@ nav ul li a {
 }
 
 .text_p p {
-    width: 300px;
     font-size: 15px;
     line-height: 25px;
     color: rgb(34, 34, 34);
