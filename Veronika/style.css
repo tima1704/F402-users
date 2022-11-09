@@ -26,7 +26,7 @@ nav {
     background-color: rgba(0, 0, 0, 0.045);
     color: rgb(0, 0, 0);
     justify-content: space-between;
-    box-shadow: 1px 12px 19px -9px rgba(0,0,0,0.97);
+    box-shadow: 1px 12px 19px -9px rgba(0, 0, 0, 0.97);
 }
 
 nav ul {
@@ -118,6 +118,10 @@ nav ul li a {
     right: 60px;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 .Main_Section {
     width: 100%;
     margin: 0;
@@ -201,6 +205,7 @@ nav ul li a {
     border-radius: 20px;
     transition: 1s;
 }
+
 .photo_container {
     width: 80%;
     margin: 100px auto;
@@ -218,19 +223,22 @@ nav ul li a {
 
 }
 
-.text_in_photo{
+.text_in_photo {
     transition: 1s;
     width: 50%;
     margin: 20px;
     font-size: 15px;
     border-radius: 20px;
-    padding: 60px 120px; 
-    
+    padding: 60px 120px;
+    flex-wrap: wrap;
+
 }
-.text_in_photo h6{
+
+.text_in_photo h6 {
     font-size: 20px;
     margin: 20px 0;
 }
+
 .text_in_photo p {
     width: 300px;
     margin: 20px;
@@ -247,22 +255,22 @@ nav ul li a {
     box-shadow: 0px 0px 35px 22px rgba(41, 41, 42, 0.121);
 }
 
-.footer_container{
+.footer_container {
     width: 100%;
     margin: 0;
     height: 300px;
     display: flex;
-    box-shadow: 0px -7px 14px -4px rgba(0,0,0,0.68);
+    box-shadow: 0px -7px 14px -4px rgba(0, 0, 0, 0.68);
     background-color: rgba(0, 0, 0, 0.045);
 }
 
-.img-in-footer img{
+.img-in-footer img {
     width: 900px;
     position: relative;
     top: 20px;
 }
 
-.contacts{
+.contacts {
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -270,38 +278,737 @@ nav ul li a {
     right: 100px;
 }
 
-.text_contacts h3{
+.text_contacts h3 {
     text-align: center;
     font-size: 30px;
     margin: 30px 20px 0;
 }
-.contacts-in-footer{
+
+.contacts-in-footer {
     display: flex;
     width: 700px;
 }
 
-.links_contacts{
+.links_contacts {
     margin: 0px 30px;
     display: flex;
 }
 
-.links_contacts ul li{
+.links_contacts ul li {
     margin: 10px;
     font-size: 19px;
     color: rgb(68, 68, 68);
 }
 
-.links_contacts ul li a{
+.links_contacts ul li a {
     color: rgb(68, 68, 68);
 }
-.links_contacts img{
+
+.links_contacts img {
     width: 50px;
     margin: 10px;
     position: relative;
     top: 25px;
 }
 
-@media screen {
-    
-    
+@media (max-width: 1400px) {
+    .nav {
+        width: 100%;
+    }
+
+    .my_photo {
+        width: 45%;
+    }
+
+    .img-in-footer img {
+        width: 140%;
+    }
+
+    .photo_container {
+        margin: auto;
+    }
+
+    .footer_container {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .contacts {
+        right: 0;
+    }
+
+    .card_picks {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .pick_text {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pick_text h3 {
+        margin: 5px auto;
+    }
+}
+
+@media (max-width: 1300px) {
+    .img-in-footer img {
+        top: 70px;
+    }
+}
+
+@media (max-width: 1280px) {
+    nav ul {
+        margin-right: 90px;
+    }
+
+    nav {
+        width: 100%;
+        height: 90px;
+    }
+
+    .my_photo img {
+        width: 500px;
+        position: relative;
+        left: 200px;
+        bottom: 10px;
+    }
+
+    .my_name {
+        width: 80%;
+        height: 200px;
+    }
+
+    .my_name h1 {
+        width: 250px;
+        font-size: 50px;
+        margin-bottom: 10px;
+        position: relative;
+        right: 30px;
+    }
+
+    .background_of_name {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 180px;
+        left: 100px;
+
+    }
+
+    .my_name p {
+        font-size: 15px;
+        margin: 0;
+        position: relative;
+        right: 50px;
+    }
+
+    .Main_Block {
+        width: 100%;
+        margin: 50px auto;
+        height: 300px;
+    }
+
+    .pick_text {
+        height: 70px;
+    }
+
+    .pick_text img {
+        width: 60px;
+    }
+
+    .pick_text h3 {
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    .text_main_block {
+        width: 75%;
+    }
+
+    .text_main_block h2 {
+        margin-top: 100px;
+        font-size: 35px;
+    }
+
+    .photo img {
+        width: 800px;
+        margin: 20px;
+    }
+
+    .photo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .photo:nth-child(1) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .photo:nth-child(3) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .photo:nth-child(5) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .text_in_photo {
+        width: 100%;
+        margin: 20px;
+        font-size: 20px;
+        padding: 60px 80px;
+
+    }
+
+    .text_in_photo h6 {
+        font-size: 26px;
+        margin: 20px 0;
+    }
+
+    .text_in_photo p {
+        width: 700px;
+        font-size: 20px;
+    }
+
+    .footer_container {
+        width: 100%;
+        height: 300px;
+    }
+
+    .img-in-footer img {
+        width: 700px;
+        position: relative;
+        top: 20px;
+    }
+
+    .contacts {
+
+        position: relative;
+        right: 120px;
+    }
+
+    .contacts-in-footer {
+        display: flex;
+        width: 680px;
+    }
+
+    .links_contacts {
+        margin: 0px 30px;
+        display: flex;
+    }
+
+    .links_contacts ul li {
+        font-size: 17px;
+
+    }
+
+    .links_contacts img {
+        width: 40px;
+        margin: 10px;
+        position: relative;
+        top: 20px;
+    }
+
+    .text_in_photo {
+        width: 800px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .photo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .photo img:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 1199px) {
+    .img-in-footer {
+        position: relative;
+    }
+
+    .img-in-footer img {
+        z-index: -1;
+        opacity: 0.3;
+        position: absolute;
+        left: 290px;
+        top: 15%;
+        width: 850px;
+    }
+
+    .contacts-in-footer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .contacts {
+        right: 0;
+    }
+}
+
+@media (max-width: 1050px) {
+    .img-in-footer img {
+        left: 155px;
+    }
+}
+
+@media (max-width: 996px) {
+    .my_photo {
+        width: 40%;
+    }
+
+    .my_photo img {
+        left: 50px;
+        bottom: 60px;
+    }
+
+    .img-in-footer img {
+        width: 650px;
+    }
+}
+
+@media (max-width: 850px) {
+    .background_of_name {
+        overflow: hidden;
+    }
+
+    .Main_0f_Top {
+        width: 100%;
+    }
+
+    .Main_Section {
+        width: 100%;
+    }
+
+    .Main_Cards {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .Main_Block {
+        height: auto;
+    }
+
+    .Main_Block_Picks {
+        width: 100%;
+    }
+
+    .pick_text h3 {
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    .pick_text img {
+        width: 100px;
+
+    }
+
+    .card_picks p {
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 60%;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .img-in-footer img {
+        left: 140px;
+        top: 30%;
+    }
+
+    .text_in_photo img {
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .Main_Cards {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .Main_Block {
+        height: auto;
+    }
+
+    .text_main_block h2 {
+        margin-top: 0;
+    }
+
+    .card_picks {
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .photo img {
+        width: 100%;
+    }
+
+    .img-in-footer img {
+        width: 610px;
+        left: 105px;
+        top: 25%;
+    }
+
+    .my_photo {
+        height: 570px;
+    }
+
+    .my_photo img {
+        margin-right: 45px;
+        width: 435px;
+        left: -20px;
+        bottom: 75px;
+    }
+
+    .background_of_name {
+        width: 250px;
+        height: 250px;
+    }
+
+    .my_name h1 {
+        width: 190px;
+        font-size: 35px;
+        right: 30px;
+    }
+
+    .my_name p {
+        font-size: 15px;
+        right: 40px;
+    }
+
+    .text_in_photo {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .Main_0f_Top {
+        width: 80%;
+        height: 550px;
+    }
+}
+
+@media (max-width:600px) {
+    .Main_0f_Top {
+        width: 100%;
+    }
+
+    .Main_Section {
+        width: 100%;
+    }
+
+    .Main_Block_Picks {
+        width: 100%;
+    }
+
+    .Main_Section {
+        width: 120%;
+    }
+
+    .footer_container {
+        width: 120%;
+    }
+
+    .img-in-footer img {
+        width: 700px;
+        left: 10px;
+        top: 20%;
+    }
+
+    nav {
+        width: 120%;
+        height: 90px;
+    }
+
+    .my_name h1 {
+        font-size: 30px;
+        right: 40px;
+        top: -30px;
+    }
+
+    .my_name p {
+        right: 30px;
+        top: -35px;
+    }
+
+    .text_p p {
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+    .pick_text h3 {
+        font-size: 25px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .pick_text img {
+        width: 100px;
+    }
+
+    .card_picks {
+        margin-top: 50px;
+    }
+
+    .text_contacts h3 {
+        font-size: 35px;
+    }
+
+    .links_contacts ul li {
+        font-size: 20px;
+    }
+
+    .text_in_photo h6 {
+        font-size: 30px
+    }
+
+    .text_in_photo p {
+        font-size: 20px
+    }
+
+    .text_in_photo {
+        padding: 10px 20px;
+    }
+
+    .photo img {
+        width: 110%;
+    }
+
+    .my_photo {
+        position: absolute;
+    }
+
+    .background_of_name {
+        display: block;
+        height: 200px;
+        width: 200px;
+    }
+
+    .background_of_name {
+        left: 280px;
+        top: 190px;
+        background: rgba(255, 255, 255, .5);
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        margin-right: 0;
+    }
+
+    .Main_Section {
+        width: 100%;
+    }
+
+    .Main_0f_Top {
+        width: 100%;
+    }
+
+    .footer_container {
+        width: 100%;
+    }
+
+    .img-in-footer img {
+        display: none;
+    }
+
+    .Main_Section {
+        width: 100%;
+    }
+
+    .text_contacts h3 {
+        font-size: 25px;
+    }
+
+    .links_contacts ul li a {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .text_in_photo h6 {
+        font-size: 20px;
+    }
+
+    .text_in_photo p {
+        font-size: 13px;
+    }
+
+    .text_in_photo img {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width:500px) {
+    nav {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav h1 {
+        margin: 0;
+        padding-left: 0px;
+        font-size: 22px;
+        text-transform: capitalize;
+        text-align: start;
+    }
+
+    .my_photo img {
+        left: -40px;
+        bottom: -20px;
+        width: 350px;
+    }
+
+    .background_of_name {
+        overflow: hidden;
+        left: 220px;
+        top: 50px;
+        margin-right: 0;
+    }
+
+    .Main_0f_Top {
+        overflow: hidden;
+        display: block;
+    }
+
+    .links_contacts ul li a {
+        font-size: 12px;
+        justify-content: space-between;
+        line-height: 25px;
+    }
+
+    .links_contacts ul li a img {
+        margin-bottom: 10px;
+    }
+
+    .text_contacts h3 {
+        margin: 5px;
+    }
+
+    .text_main_block {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contacts-in-footer {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_container {
+        height: auto;
+    }
+
+    .links_contacts ul li a {
+        font-size: 12px;
+        justify-content: space-between;
+        line-height: 50px;
+    }
+}
+
+@media (max-width:450px) {
+    .background_of_name {
+        left: 165px;
+        top: 270px;
+    }
+}
+
+@media (max-width: 400px) {
+    .my_photo img {
+        left: -25px;
+        bottom: -110px;
+        width: 300px;
+    }
+
+    .background_of_name {
+        left: 130px;
+        top: 50px;
+        margin-right: 0;
+    }
+
+    .text_in_photo p {
+        font-size: 15px;
+        width: 100%;
+    }
+    .text_in_photo h6{
+        font-size: 20px;
+    }
+    .text_main_block {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text_in_photo {
+        padding: 5px;
+    }
+
+}
+
+@media (max-width: 300px) {
+    .my_photo img {
+        left: -30px;
+        bottom: -155px;
+        width: 250px;
+    }
+
+    .background_of_name {
+        width: 150px;
+        height: 150px;
+        left: 90px;
+        top: 70px;
+    }
+
+    .my_name h1 {
+        right: 5px;
+        width: 50%;
+        font-size: 20px;
+    }
+
+    .my_name p {
+        right: 18px;
+        top: -30px;
+        font-size: 13px;
+    }
 }
